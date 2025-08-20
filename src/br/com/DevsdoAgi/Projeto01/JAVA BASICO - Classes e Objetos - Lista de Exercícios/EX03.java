@@ -1,3 +1,4 @@
+package br.com.DevsdoAgi.Projeto01;
 import java.util.*;
 /*
 3. Classe Aluno – Média e Situação
