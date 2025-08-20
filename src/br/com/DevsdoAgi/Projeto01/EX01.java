@@ -1,8 +1,19 @@
 package br.com.DevsdoAgi.Projeto01;
 import java.util.*;
+/*
+1. Classe Produto – Controle de Estoque
+Crie uma classe chamada Produto com os atributos:
+nome (String)
+preco (double)
+quantidade (int)
+Métodos:
+void adicionarEstoque(int quantidade)
+void removerEstoque(int quantidade)
+void exibirDados() → exibe as informações do produto.
+Objetivo: instanciar dois produtos e simular a movimentação de estoque com entrada e saída.
+*/
 
 public class EX01 {
-
     // Método 1: primeira trinca de alta
     public static int[] T1(double[] precos){
         for (int i = 0 ; i <= precos.length - 3; i++){
