@@ -20,7 +20,7 @@ abstract class Cartao {
     }
     public abstract void calculoCompra();
 }
-class CartaoCredito extends Conta{
+class CartaoCredito extends Cartao{
     public ContaCorrente(int numero, double limite) {
         super(numero, limite);
     }
@@ -30,7 +30,7 @@ class CartaoCredito extends Conta{
     }
 }
 
-class CartaoDebito extends Conta{
+class CartaoDebito extends Cartao{
     public ContaCorrente(int numero) {
         super(numero);
     }
