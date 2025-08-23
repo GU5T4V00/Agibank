@@ -16,7 +16,6 @@ Objetivo: calcular o salário líquido de um funcionário e imprimir a folha de 
 public class EX05 {
 }
 class Funcionario {
-    Scanner sc = new Scanner(System.in);
     public String nome;
     private double salarioBruto;
     private double descontoDoInss;
