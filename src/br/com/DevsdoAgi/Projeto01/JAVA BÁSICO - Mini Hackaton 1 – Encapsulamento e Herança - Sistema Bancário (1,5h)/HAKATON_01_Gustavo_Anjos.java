@@ -73,6 +73,7 @@ class Analista extends Funcionario{
         System.out.println("==========");
         System.out.println("Colaborador: " + this.nome);
         System.out.println("Cargo: Analista");
+        System.out.println("Bonus do Cargo: R$1000,00");
         System.out.println("Salário: " + this.salario);
         System.out.println("==========");
     }
@@ -94,6 +95,7 @@ class Gerente extends Funcionario{
         System.out.println("==========");
         System.out.println("Colaborador: " + this.nome);
         System.out.println("Cargo: Gerente");
+        System.out.println("Bonus do Cargo: R$2000,00");
         System.out.println("Salário: " + this.salario);
         System.out.println("==========");
     }
