@@ -1,7 +1,4 @@
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.Comparator;
-
 /*
 Contar transações altas
 Conte quantos valores em uma lista são maiores que R$ 1.000,00.
