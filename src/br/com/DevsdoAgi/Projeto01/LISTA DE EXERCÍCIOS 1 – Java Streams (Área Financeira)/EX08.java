@@ -6,7 +6,7 @@ Concatenar valores positivos
 Crie uma string única com todos os valores positivos da lista, separados por vírgula.
 */
 
-public class EX01 {
+public class EX08 {
     public static void main(String[] args){
         // Lista de saldos
         List<Double> saldos = List.of(-101.1, 100005001.20, 1312.1, 2000.0, -3.7, 3070.40, 77.43);
